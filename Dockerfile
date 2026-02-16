@@ -11,6 +11,6 @@ COPY . .
 
 #Run as non-root (alpine node image includes user 'node')
 USER node 
-EXPOSE 4001
+EXPOSE 4000
 ENV NODE_ENV=production
 CMD ["npm", 'start']
