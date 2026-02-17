@@ -13,4 +13,4 @@ COPY . .
 USER node 
 EXPOSE 4000
 ENV NODE_ENV=production
-CMD ["npm", 'start']
+CMD ["npm", "start"]

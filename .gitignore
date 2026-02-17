@@ -1,1 +1,9 @@
-node_modules
+# Node.js dependencies
+node_modules/
+
+# Kubernetes CLI executable
+kubectl.exe
+
+# Windows system files
+Thumbs.db
+*.log
